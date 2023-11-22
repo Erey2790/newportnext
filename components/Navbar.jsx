@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
+import { FaLinkedinIn } from 'react-icons/fa'
 
 const Navbar = () => {
   return (
@@ -62,6 +63,14 @@ const Navbar = () => {
               <li className="py-4 text-sm">Contact</li>
               </Link>
             </ul>
+            <div className="pt-40">
+              <p className="uppercase tracking-widest text-[#5651e5]">Let's Connect</p>
+              <div>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <FaLinkedinIn />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
