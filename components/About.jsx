@@ -11,7 +11,7 @@ const About = () => {
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-gray-600'>// I am not your normal developer</p>
                 <p className='py-2 text-gray-600'>insert paragraph about you do this later. blah blah blah blah blah alsdj lakj alsdfj  lsdjlkj </p>
-                <p className='py-2 text-gray-600'>more description about u and your skills rt paragraph about you do this later. blah blah blah blah blah alsdj lakj alsdfj  lsdjlkj </p>
+                <p className='py-2 text-gray-600'>more description about u and your skills rt paragraph about you do this later. blah blah blah blah gkjggjhg  gkjg  jghjghlkhk kjg jgjg jg g kjg jhg jg jg kjg kjhgkblah alsdj lakj alsdfj  lsdjlkj </p>
                 <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
             </div>
             <div className='w-full h-auto shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 '>
