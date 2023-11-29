@@ -18,21 +18,25 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="ChatGPTClone"
+            projectType="NextJS"
             backgroundImg={nextjs}
             projectUrl="/chatgpt"
           />
           <ProjectItem
             title="Events App"
+            projectType="NextJS"
             backgroundImg={eventsapp}
             projectUrl="/eventsapp"
           />
           <ProjectItem
             title="Weather Dashboard"
+            projectType="Javascript"
             backgroundImg={weatherapp}
             projectUrl="/eventsapp"
           />
           <ProjectItem
             title="TaskMaster Pro"
+            projectType="Javascript"
             backgroundImg={taskMaster}
             projectUrl="/eventsapp"
           />
