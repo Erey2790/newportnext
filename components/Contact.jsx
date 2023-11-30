@@ -5,6 +5,8 @@ import Image from "next/image";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
+import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
+import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -22,7 +24,7 @@ const Contact = () => {
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src={contactimgg}
-                  width={405}
+                  width={485}
                   alt=""
                 />
               </div>
@@ -91,6 +93,16 @@ const Contact = () => {
 
 
         </div>
+
+          {/* scroll button */}
+          <div className="flex justify-center py-12">
+            <Link href='/'>
+              <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30}/>
+              </div>
+            </Link>
+          </div>
+
       </div>
     </div>
   );
