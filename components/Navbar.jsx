@@ -90,18 +90,26 @@ const Navbar = () => {
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#5651e5]">Let's Connect</p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+              <a href='https://www.linkedin.com/in/elmer-reyes-56091221b/'>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                 <FaLinkedinIn />
                 </div>
+                </a>
+                <a href='https://github.com/Erey2790'>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                 < FaGithub/>
                 </div>
+                </a>
+                <a href='mailto:erey2790@gmail.com'>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                 <AiOutlineMail />
                 </div>
+                </a>
+                <a href='/#contact'>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                 <BsFillPersonLinesFill />
                 </div>
+                </a>
               </div>
             </div>
           </div>

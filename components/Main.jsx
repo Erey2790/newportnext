@@ -15,18 +15,26 @@ const Main = () => {
                     I'm a Full Stack Web Developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building responsive full stack web applications while learning mobile responsive applications.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <a href='https://www.linkedin.com/in/elmer-reyes-56091221b/'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaLinkedinIn />
                     </div>
+                    </a>
+                    <a href='https://github.com/Erey2790'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaGithub />
                     </div>
+                    </a>
+                    <a href='mailto:erey2790@gmail.com'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineMail />
                     </div>
+                    </a>
+                    <a href='/#contact'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
                     </div>
+                    </a>
                 </div>
             </div>
         </div>
