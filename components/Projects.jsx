@@ -38,7 +38,7 @@ const Projects = () => {
             title="TaskMaster Pro"
             projectType="Javascript"
             backgroundImg={taskMaster}
-            projectUrl="/eventsapp"
+            projectUrl="/taskmasterpro"
           />
         </div>
       </div>

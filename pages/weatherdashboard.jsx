@@ -21,8 +21,8 @@ const weatherdashboard = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>This app was built using vanilla Javascript. I used Github Pages to host the app. Users can access the web app and enter the city of their choice. The app will then retrieve the data from Weather API and load it for the user to see. The app is styled with old fashioned CSS. I'm pretty proud of this app because it thought me the Javascript fundamentals and how to connect with other APIs.  </p>
-          <button className='px-8  py-2 mt-4 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-4'>Code</button>
+          <a href='https://erey2790.github.io/weather-dash/'><button className='px-8  py-2 mt-4 mr-8'>Demo</button></a>
+          <a href='https://github.com/Erey2790/weather-dash'><button className='px-8 py-2 mt-4'>Code</button></a>
         </div>
         {/* box */}
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>

@@ -21,8 +21,8 @@ const eventsapp = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>This app was built using NextJS and is deployed by Vercel. It was my first projects using NextJS(13). Users can browse the app and search for activites in their local cities. NextJs Fast Refresh is amazing and you can notice the difference. It was also my first time using Sass to style the app. I had a really positive experience using Sass.  </p>
-          <button className='px-8  py-2 mt-4 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-4'>Code</button>
+          <a href='https://events-oh1m3eyek-erey2790.vercel.app/'><button className='px-8  py-2 mt-4 mr-8'>Demo</button></a>
+          <a href='https://github.com/Erey2790/events_app'><button className='px-8 py-2 mt-4'>Code</button></a>
         </div>
         {/* box */}
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
