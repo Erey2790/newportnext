@@ -32,7 +32,7 @@ const Projects = () => {
             title="Weather Dashboard"
             projectType="Javascript"
             backgroundImg={weatherapp}
-            projectUrl="/eventsapp"
+            projectUrl="/weatherdashboard"
           />
           <ProjectItem
             title="TaskMaster Pro"
