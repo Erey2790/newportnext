@@ -29,7 +29,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Name here</h2>
+                <h2 className="py-2">Elmer Reyes</h2>
                 <p>Full Stack Developer</p>
                 <p className="py-4">
                   I am availible for freelance or full-time positions. Contact
@@ -39,15 +39,21 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
+                <a href='https://www.linkedin.com/in/elmer-reyes-56091221b/'>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
+                  </a>
+                  <a href='https://github.com/Erey2790'>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaGithub />
                   </div>
+                  </a>
+                  <a href='mailto:erey2790@gmail.com'>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
+                  </a>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <BsFillPersonLinesFill />
                   </div>

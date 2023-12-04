@@ -3,11 +3,37 @@ import React, { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { useRouter } from "next/router";
 
 const Navbar = () => {
 
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState('#ecf0f3');
+  const [linkColor, setLinkColor] = useState('#1f2937');
+  const router = useRouter();
+
+
+useEffect(() => {
+
+if(
+  router.asPath === '/chatgpt' ||
+  router.asPath === '/eventsapp' ||
+  router.asPath === '/taskmasterpro' ||
+  router.asPath === '/weatherdashboard'
+){
+  setNavBg('transparent')
+  setLinkColor('#ecf0f3')
+} else {
+  setNavBg('#ecf0f3')
+  setLinkColor('#1f2937')
+}
+
+
+
+}, [router])
+
+
 
   const handleNav = () => {
       setNav(!nav)
@@ -27,10 +53,12 @@ const Navbar = () => {
 
 
   return (
-    <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20  z-[100]'}>
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">Navbar
+    <div
+    style={{backgroundColor:`${navBg}`}}
+    className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20  z-[100]'}>
+      <div style={{color: `${linkColor}`}} className="flex justify-between items-center w-full h-full px-2 2xl:px-16 uppercase text-sm">Elmer Reyes
       <div>
-        <ul className="hidden md:flex">
+        <ul style={{color: `${linkColor}`}} className="hidden md:flex">
             <Link href='/'>
                 <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
@@ -59,7 +87,7 @@ const Navbar = () => {
         : 'fixed left-[-100%] top-0  p-10 ease-in duration-500'}>
           <div>
             <div className="flex w-full items-center justify-between">
-              {/* logo here */}logo
+              {/* logo here */}Elmer Reyes
               <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                 <AiOutlineClose size={25} />
                 </div>
