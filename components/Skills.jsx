@@ -21,7 +21,7 @@ function Skills() {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={htmlImage} width={64} height={64}/>
+                            <Image alt='html image' src={htmlImage} width={64} height={64}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>HTML</h3>
@@ -32,7 +32,7 @@ function Skills() {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={javascript} width={64} height={64}/>
+                            <Image alt='javascript image' src={javascript} width={64} height={64}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>JavaScript</h3>
@@ -43,7 +43,7 @@ function Skills() {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={firebaselogo} width={64} height={64}/>
+                            <Image alt='firebase logo' src={firebaselogo} width={64} height={64}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Firebase</h3>
@@ -54,7 +54,7 @@ function Skills() {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={nextjslogo} width={64} height={64}/>
+                            <Image alt='next js logo' src={nextjslogo} width={64} height={64}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>NextJS</h3>
@@ -65,7 +65,7 @@ function Skills() {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={gitlogo} width={64} height={64}/>
+                            <Image alt='git logo' src={gitlogo} width={64} height={64}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Git</h3>
@@ -76,7 +76,7 @@ function Skills() {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={reactlogo} width={64} height={64}/>
+                            <Image alt='react logo' src={reactlogo} width={64} height={64}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>React</h3>
@@ -87,7 +87,7 @@ function Skills() {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={tailwindlogo} width={64} height={64}/>
+                            <Image alt='tailwind logo' src={tailwindlogo} width={64} height={64}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Tailwind</h3>
@@ -98,7 +98,7 @@ function Skills() {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={nodejslogo} width={64} height={64}/>
+                            <Image alt='node j s logo' src={nodejslogo} width={64} height={64}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>NodeJS</h3>

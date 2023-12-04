@@ -27,6 +27,7 @@ const Projects = () => {
             projectType="NextJS"
             backgroundImg={eventsapp}
             projectUrl="/eventsapp"
+            
           />
           <ProjectItem
             title="Weather Dashboard"

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import contactimgg from "../public/assets/contactimg.png";
 import Image from "next/image";
 
@@ -9,6 +9,19 @@ import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import Link from "next/link";
 
 const Contact = () => {
+
+const [name, setName] = useState('');
+const [phoneNumber, setPhoneNumber] = useState('');
+const [email, setEmail] = useState('');
+const [subject, setSubject] = useState('');
+const [message, setMessage] = useState('');
+
+const onSubmit = (e) => {
+  e.preventDefault()
+  console.log('Data', name, phoneNumber, email, subject, message)
+  
+}
+
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -25,7 +38,7 @@ const Contact = () => {
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src={contactimgg}
                   width={485}
-                  alt=""
+                  alt="contact photo"
                 />
               </div>
               <div>
@@ -65,34 +78,34 @@ const Contact = () => {
 
             <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
                 <div className="p-4">
-                    <form>
+                    <form onSubmit={onSubmit}>
                         <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                             <div className="flex flex-col">
                                 <label className="uppercase text-sm py-2">Name</label>
-                                <input className="border-2 rounded-lg p-3 flex border-gray-300" type="text" />
+                                <input className="border-2 rounded-lg p-3 flex border-gray-300" onChange={(e) => setName(e.target.value)} value={name} type="text" />
                             </div>
                             <div className="flex flex-col">
                                 <label className="uppercase text-sm py-2">Phone Number</label>
-                                <input className="border-2 rounded-lg p-3 flex border-gray-300" type="text" />
+                                <input className="border-2 rounded-lg p-3 flex border-gray-300" onChange={(e) => setPhoneNumber(e.target.value)} value={phoneNumber} type="text" />
                             </div>
                         </div>
 
                         <div className="flex flex-col py-2">
                         <label className="uppercase text-sm py-2">Email</label>
-                        <input className="border-2 rounded-lg p-3 flex border-gray-300" type="email" />
+                        <input className="border-2 rounded-lg p-3 flex border-gray-300"onChange={(e) => setEmail(e.target.value)} value={email} type="email" />
                         </div>
 
                         <div className="flex flex-col py-2">
                         <label className="uppercase text-sm py-2">Subject</label>
-                        <input className="border-2 rounded-lg p-3 flex border-gray-300" type="text" />
+                        <input className="border-2 rounded-lg p-3 flex border-gray-300" onChange={(e) => setSubject(e.target.value)} value={subject} type="text" />
                         </div>
 
                         <div className="flex flex-col py-2">
                         <label className="uppercase text-sm py-2">Message</label>
-                        <textarea className="border-2 rounded-lg p-3  border-gray-300" name="message" rows='10'></textarea>
+                        <textarea className="border-2 rounded-lg p-3  border-gray-300"  onChange={(e) => setMessage(e.target.value)} type ='text' value={message} rows='10'></textarea>
                         </div>
 
-                        <button className="w-full p-4 text-gray-100 mt-4">Send Message</button>
+                        <button type="submit" className="w-full p-4 text-gray-700 mt-4">Send Message</button>
                     </form>
                 </div>
             </div>

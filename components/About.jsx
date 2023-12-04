@@ -22,7 +22,7 @@ const About = () => {
                 <a href='/#projects'><p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p></a>
             </div>
             <div className='w-full h-auto shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 '>
-                <Image className="rounded-xl" width={2000} height={2000} src={codingImage}/>
+                <Image alt='coding image' className="rounded-xl" width={2000} height={2000} src={codingImage}/>
             </div>
         </div>
     </div>
